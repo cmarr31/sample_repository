@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Form Demm with Bootstrap (for Bryson)</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<h1>This is a form demo!</h1>
+    <p>I added Bootstrap, just for Bryson!</p>
+	<form action="/process_form" method="post">
+		First Name: <input type="text" name="first_name" value="John">
+		<br> Last Name: <input type="text" name="last_name" value="Doe">
+		<br> Address: <input type="text" name="address" value="123 Main St.">
+		<br> City: <input type="text" name="city" value="Chicago">
+		<br>
+            <input type="hidden" name="state" value="IL">
+		<br>
+		<input type="submit" value="click me to send the data to the process_form route">
+        <button>Click me</button>
+	</form>
+</body>
+
+</html>
